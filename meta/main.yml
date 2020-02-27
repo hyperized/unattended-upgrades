@@ -1,0 +1,5 @@
+---
+dependencies:
+  - role: hyperized.package
+    package_name: unattended-upgrades
+    package_state: "{{ unattended_upgrades_state }}"
