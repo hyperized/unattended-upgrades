@@ -1,4 +1,19 @@
 ---
+galaxy_info:
+  author: Gerben Geijteman
+  description: Ubuntu Unattended Upgrades
+  company: Hyperized.net
+  license: MIT
+  min_ansible_version: 2.5
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+  galaxy_tags:
+    - package
+    - apt
+    - unattended
+    - upgrades
 dependencies:
   - role: hyperized.package
     package_name: unattended-upgrades
